@@ -1,55 +1,83 @@
-# 🚀 TalentScout AI - Intelligent Hiring Assistant
+# TalentScout AI - Intelligent Hiring Assistant
 
-## 🎯 Project Overview
-TalentScout Pro is an advanced AI-powered hiring assistant designed to revolutionize technical candidate screening for recruitment agencies. Built with Google's Gemini 2.0 Flash model and deployed on AWS EC2, this intelligent chatbot automates the initial screening process while maintaining a human-like interaction quality.
+## 📌 Project Overview
 
-The application serves as a virtual technical recruiter, capable of conducting complete screening interviews from start to finish. It combines natural conversation flow with structured technical assessment to evaluate candidates effectively while providing recruiters with comprehensive evaluation reports.
+**TalentScout Pro** is an advanced AI-powered hiring assistant designed to streamline technical candidate screening for recruitment agencies. Built using Google’s Gemini 2.0 Flash model and deployed on AWS EC2, this chatbot automates the early stages of candidate evaluation with natural, human-like interaction.
 
-## ✨ Key Features
+It functions as a virtual technical recruiter, conducting end-to-end screening interviews, assessing skills, and generating detailed evaluation reports to support hiring decisions.
 
-### 📝 Candidate Information Collection
-The chatbot efficiently gathers all essential candidate details through a conversational interface:
-- Personal information (name, email, phone number)
-- Professional background (years of experience, desired position)
+---
+
+## 🚀 Key Features
+
+### 1. Candidate Information Collection
+Collects essential candidate details via a conversational interface:
+- Name, email, and phone number
+- Experience level and desired job role
 - Location details (city, country)
-- Resume processing (supports PDF, DOCX, and image formats)
+- Resume upload (PDF, DOCX, PNG, JPG)
 
-### 💻 Technical Skills Assessment
-After collecting basic information, TalentScout Pro:
-- Requests a comprehensive list of technical skills (programming languages, frameworks, tools)
-- Generates tailored technical questions for each declared skill
-- Assesses candidates through conceptual, practical, and problem-solving questions
-- Adapts question difficulty based on the candidate's experience level
+### 2. Technical Skills Assessment
+After gathering basic information, the assistant:
+- Collects a list of technical skills (languages, frameworks, tools)
+- Generates customized questions per skill
+- Evaluates answers for concept clarity, practical understanding, and problem-solving
+- Adjusts difficulty based on experience level
 
-### 📄 Smart Resume Processing
-The system automatically extracts and analyzes resume content from:
+### 3. Smart Resume Parsing
+Automatically extracts and processes data from:
 - PDF documents
-- Word documents
-- Image files (PNG, JPG) using Gemini's vision capabilities
+- Word files (.docx)
+- Image files (JPG, PNG) via Gemini’s vision capabilities
 
-### 🧠 Context-Aware Conversation Flow
-The chatbot maintains complete context throughout the interview, remembering previous answers and adapting follow-up questions accordingly. It handles unexpected inputs professionally and can gracefully redirect conversations back to relevant topics when they veer off course.
+### 4. Context-Aware Conversation
+Maintains conversation context throughout the interview:
+- Remembers prior responses for follow-up questions
+- Handles unexpected input gracefully
+- Redirects back to relevant topics seamlessly
 
-### 📊 Comprehensive Evaluation System
-Upon completion, TalentScout Pro generates detailed assessment reports that include:
-- Skill proficiency ratings
+### 5. Comprehensive Evaluation Report
+Generates detailed post-interview insights, including:
+- Skill proficiency levels
 - Answer quality analysis
-- Overall hiring recommendations
-- Potential areas of concern
+- Hiring recommendations
+- Highlighted strengths and concerns
+
+---
 
 ## ⚙️ Technical Specifications
-- **AI Engine**: Powered by Google Gemini 2.0 Flash
-- **Hosting**: Deployed on AWS EC2
-- **Interface**: Streamlit-based web application
-- **Security**: Data privacy best practices implemented
+
+- **AI Engine**: Google Gemini 2.0 Flash
+- **Deployment**: AWS EC2 instance
+- **Frontend**: Streamlit web interface
+- **Security**: Follows best practices in data privacy and security
+
+---
 
 ## 🌐 Demo
 
+_Include your demo link, screenshots, or walkthrough video here if available._
 
-## 🚀 Deployment
-The production environment runs on AWS EC2 with:
-- High availability configurations
-- Optimized response times
-- Secure data processing
-- Easy scalability
+---
+
+## 📦 Deployment Overview
+
+The application runs on a robust AWS EC2 production setup:
+- High availability and low latency
+- Scalable architecture for increased load
+- Secure resume and data handling
+
+---
+
+## 📄 License
+
+_This project is licensed under the [MIT License](LICENSE) (update as applicable)._
+
+---
+
+## 🙋‍♀️ Contribution
+
+Feel free to fork this repository, raise issues, or submit pull requests to contribute to TalentScout AI.
+
+---
 
